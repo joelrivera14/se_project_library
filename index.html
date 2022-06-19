@@ -10,8 +10,9 @@
 
   <body>
     <!-- Wrap the entire page content in a new div with the page class. Remember to add the closing tag -->
-    <div class="header">
-      <div class="nav">
+    <div class="page">
+    <header class="header">
+      <nav class="nav">
         <img
           src="./images/logo.png"
           alt="Practicum Library Logo"
@@ -20,10 +21,10 @@
         <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
         <ul class="nav__links">
           <li>
-            <a class="nav__link">Staff picks</a>
+            <a class="nav__link" href="#staff">Staff picks</a>
           </li>
           <li>
-            <a class="nav__link">Events</a>
+            <a class="nav__link" href="#events">Events</a>
           </li>
           <li>
             <a class="nav__link">Become a member</a>
@@ -42,15 +43,15 @@
         your development knowledge, or just use this lovely spot to work or
         study. This is a cool place for cool students!
       </p>
-      <!-- <img src="./images/inside_the_library.png" alt="Illustration 'Inside the library'" class="header__image" > -->
+       <img src="./images/inside_the_library.png" alt="Illustration 'Inside the library'" class="header__image" > 
       <div class="header__footer">
         <a class="header__link">About the library &darr;</a>
         <p class="header__address">200 Success Avenue, The Town of Practicum</p>
       </div>
-    </div>
+    </header>
 
-    <div class="content">
-      <div class="staff">
+    <main class="content">
+      <section class="staff" id="staff">
         <h2 class="staff__title">Staff picks</h2>
         <p class="staff__subtitle">That our readers love</p>
         <!-- Wrap those cards! -->
@@ -119,9 +120,9 @@
             <p class="card__footer">Steve McConnell</p>
           </div>
         </li>
-      </div>
+      </section>
 
-      <div class="events">
+      <section class="events" id="events">
         <div class="events__content">
           <h2 class="events__heading">Upcoming events:</h2>
           <h3 class="events__title">
@@ -153,9 +154,9 @@
           <a href="#" class="events__more">More events &rarr;</a>
         </div>
         <!-- Start creating the composition here -->
-      </div>
+      </section>
 
-      <div class="membership">
+      <section class="membership">
         <h2 class="membership__title">Becoming a library member is easy!</h2>
         <ul class="membership__steps">
           <li class="step">
@@ -209,8 +210,8 @@
             </p>
           </li>
         </ul>
-      </div>
-      <div class="about">
+      </section>
+      <section class="about">
         <h2 class="about__title">About the library</h2>
         <div class="about__content">
           <p class="about__paragraph">
@@ -232,10 +233,11 @@
           </p>
         </div>
         <!-- <div class="about__circle"></div> -->
-      </div>
-    </div>
-    <div class="footer">
+      </section>
+    </main>
+    <footer class="footer">
       <!-- The time to mark up the footer has come, you can do it 💪 -->
-    </div>
+    </footer>
+  </div>
   </body>
 </html>
