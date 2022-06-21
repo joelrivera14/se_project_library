@@ -2,8 +2,6 @@
 .page {
 min-width: 1100px;
 max-width: 1600px;
-display: flex;
-flex-wrap: wrap;
 margin: 0 auto;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
@@ -24,8 +22,8 @@ line-height: 20px;
 .nav {
   /* Add flex properties here */
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .logo {
@@ -49,6 +47,10 @@ line-height: 20px;
 }
 
 /* Add the hover state styles for .nav__link here */
+.nav__link:hover{
+  color: #1f69c9;
+
+}
 
 .header__title {
   font-size: 66px;
@@ -69,6 +71,9 @@ line-height: 20px;
   /* Write styles here */
   z-index: 1;
   max-width: 636px;
+  position: absolute;
+  top: 135px;
+  right: 20px;
 }
 
 .header__footer {
@@ -89,6 +94,9 @@ line-height: 20px;
 }
 
 /* Add the hover state styles for .header__link here */
+.header__link:hover{
+  color: #1f69c9;
+}
 
 .header__address {
   margin: 0;
