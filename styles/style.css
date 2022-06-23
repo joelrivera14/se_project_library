@@ -280,20 +280,26 @@ left: 319px;
 .person_name_burbidge {
   /* Use correct values of top/right/bottom/left properties to position the element */
 top: 96px;
-right: -125px;
+right: 125px;
 
 }
 
 .person_name_cannon {
   /* Use correct values of top/right/bottom/left properties to position the element */
+bottom: 18px;
+right: 216px;
 }
 
 .person_name_mitchell {
   /* Use correct values of top/right/bottom/left properties to position the element */
+bottom: 82px;
+left: 142px;
 }
 
 .person_name_tarter {
   /* Use correct values of top/right/bottom/left properties to position the element */
+top: 79px;
+left: 159px;
 }
 
 .person__image {
@@ -338,10 +344,14 @@ right: -125px;
   padding: 0;
   margin: 100px 0 0;
   /* Add styles */
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
 }
 
 .step {
   /* Add styles */
+  flex: 0 0 220px;
 }
 
 .step__title {
@@ -368,6 +378,7 @@ right: -125px;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
@@ -384,6 +395,11 @@ right: -125px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 120px;
+  z-index: 1;
 }
 
 .about__paragraph {
@@ -395,6 +411,8 @@ right: -125px;
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  z-index: 0;
+  position: absolute;
 }
 
 .footer {
