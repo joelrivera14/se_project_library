@@ -413,13 +413,20 @@ left: 159px;
   border-radius: 50%;
   z-index: 0;
   position: absolute;
+  top: -121px;
+  left: -91px;
 }
 
 .footer {
   box-sizing: border-box;
+  display: flex;
+  background-color: black;
+  
+
 }
 
 .footer__columns {
+  
 }
 
 .footer__column_content_hours {
