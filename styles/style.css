@@ -419,23 +419,27 @@ left: 159px;
 
 .footer {
   box-sizing: border-box;
-  display: flex;
   background-color: black;
   
 
 }
 
 .footer__columns {
-  
+  display: flex;
+  flex-direction: row;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
+
 }
 
 .footer__column_content_social {
+  margin-left: 100px; 
 }
 
 .footer__logo {
+  color:white;
 }
 
 .footer__list {
@@ -449,6 +453,8 @@ left: 159px;
 }
 
 .footer__column-heading {
+  color:white;
+
 }
 
 .footer__column-link {
@@ -462,4 +468,5 @@ left: 159px;
 }
 
 .footer__copyright {
+  color: white;
 }
