@@ -8,6 +8,10 @@ font-size: 16px;
 line-height: 20px;
 }
 
+.content{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
   height: 100vh;
   min-height: 720px;
@@ -58,6 +62,7 @@ line-height: 20px;
   font-weight: 500;
   margin: 150px 0 0;
   max-width: 544px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header__description {
@@ -65,6 +70,7 @@ line-height: 20px;
   line-height: 30px;
   margin: 32px 0 0;
   max-width: 465px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header__image {
@@ -91,6 +97,7 @@ line-height: 20px;
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Add the hover state styles for .header__link here */
@@ -101,6 +108,7 @@ line-height: 20px;
 .header__address {
   margin: 0;
   color: #838383;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .staff {
@@ -431,17 +439,20 @@ left: 159px;
 
 .footer__column_content_hours {
   margin-left: auto;
+  margin-top: 60px;
 
 }
 
 .footer__column_content_social {
  margin-left: 100px;
  margin-right: 102px;
+ margin-top: 60px;
 }
 
 .footer__logo {
   color:white;
   margin-left: 80px;
+  margin-top: 60px;
   
 }
 
@@ -479,4 +490,5 @@ left: 159px;
 .footer__copyright {
   color: white;
   margin-left: 80px;
+  margin-bottom: 60px;
 }
