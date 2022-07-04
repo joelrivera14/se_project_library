@@ -428,8 +428,7 @@ left: 159px;
 .footer {
   box-sizing: border-box;
   background-color: black;
-  
-
+  padding-bottom: 60px;
 }
 
 .footer__columns {
@@ -490,5 +489,4 @@ left: 159px;
 .footer__copyright {
   color: white;
   margin-left: 80px;
-  margin-bottom: 60px;
 }
