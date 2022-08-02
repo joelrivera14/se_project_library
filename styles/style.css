@@ -473,6 +473,8 @@ left: 159px;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__column-link:hover{
@@ -482,9 +484,11 @@ left: 159px;
 .footer__social-icon {
   width:16px;
   height:16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
   color: white;
   margin-left: 80px;
+  margin-bottom: 60px;
 }
