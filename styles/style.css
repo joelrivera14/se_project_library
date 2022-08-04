@@ -444,8 +444,7 @@ left: 159px;
   width: 116px;
   height: 21px;
   color:white;
-  margin-left: 80px;
-  margin-top: 60px;
+  padding: 80px 0 0 80px;
   
 }
 
@@ -461,6 +460,7 @@ left: 159px;
   margin-bottom: 16px;
   
 }
+
 
 .footer__column-heading {
   color:white;
@@ -489,6 +489,6 @@ left: 159px;
 
 .footer__copyright {
   color: white;
-  margin-left: 80px;
-  margin-bottom: 60px;
+margin: 0;
+    padding-left: 80px;
 }
